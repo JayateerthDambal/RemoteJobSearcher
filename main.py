@@ -33,3 +33,4 @@ def search():
     return render_template("job_search.html", input=input, jobs=jobs, job_count=len(jobs))
 
 app.run(host="127.0.0.1")
+
